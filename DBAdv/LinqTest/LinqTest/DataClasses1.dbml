@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Test" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ADMINISTOR;Initial Catalog=Test;Integrated Security=True" SettingsObjectName="LinqTest.Properties.Settings" SettingsPropertyName="TestConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.restorant" Member="restorant">
+    <Type Name="restorant">
+      <Column Name="no" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="업종" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="업태" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="업소명" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="소재지" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="전화번호" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[신고(허가)일자]" Member="신고_허가_일자" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
