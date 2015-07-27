@@ -80,6 +80,7 @@
   <ItemGroup>
     <ClInclude Include="FindBestWayWithCycle.h" />
     <ClInclude Include="Fibonacci.h" />
+    <ClInclude Include="FractionalKnapsack.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="Knapsack.h" />
     <ClInclude Include="LongestCommonSubsequence.h" />
@@ -91,6 +92,7 @@
   <ItemGroup>
     <ClCompile Include="FindBestWayWithCycle.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="FractionalKnapsack.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="LongestCommonSubsequence.cpp" />
